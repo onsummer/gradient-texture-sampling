@@ -1,0 +1,41 @@
+#app {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+  margin-top: 60px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+
+  height: 60vh;
+}
+
+#app > canvas:first-of-type {
+  width: 500px;
+  height: 500px;
+}
+
+button {
+	height: 2rem;
+	border-width: 0px;
+	background: #121213;
+	cursor: pointer;
+	outline: none;
+	color: white;
+	font-size: 1rem;
+  margin: 0.5rem;
+  transition: 200ms;
+}
+
+button:hover {
+  border-radius: .5rem;
+  transition: 200ms;
+	background: #f0f0f1;
+	color: #0c0d0e;
+  transform: translate(2px, -2px);
+  box-shadow: 3px 3px 2px 1px rgba(34, 34, 34, 0.2);
+}
